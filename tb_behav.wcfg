@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="14163099007fs"></ZoomStartTime>
+      <ZoomEndTime time="14163231435fs"></ZoomEndTime>
+      <Cursor1Time time="14163980000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="360" />
+   <wvobject fp_name="/tb/dut/clk_80M" type="logic">
+      <obj_property name="ElementShortName">clk_80M</obj_property>
+      <obj_property name="ObjectShortName">clk_80M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/reset_of_clk10M" type="logic">
+      <obj_property name="ElementShortName">reset_of_clk10M</obj_property>
+      <obj_property name="ObjectShortName">reset_of_clk10M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/reset_of_clk80M" type="logic">
+      <obj_property name="ElementShortName">reset_of_clk80M</obj_property>
+      <obj_property name="ObjectShortName">reset_of_clk80M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sys_rst" type="logic">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/number" type="array">
+      <obj_property name="ElementShortName">number[7:0]</obj_property>
+      <obj_property name="ObjectShortName">number[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/led_bits" type="array">
+      <obj_property name="ElementShortName">led_bits[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led_bits[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/interrupt" type="logic">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/pc_int" type="array">
+      <obj_property name="ElementShortName">pc_int[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_int[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtvec" type="array">
+      <obj_property name="ElementShortName">mtvec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtvec[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mscratch" type="array">
+      <obj_property name="ElementShortName">mscratch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mscratch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mepc" type="array">
+      <obj_property name="ElementShortName">mepc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mepc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mcause" type="array">
+      <obj_property name="ElementShortName">mcause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mcause[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mstatus" type="array">
+      <obj_property name="ElementShortName">mstatus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mstatus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mie" type="array">
+      <obj_property name="ElementShortName">mie[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mie[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mip" type="array">
+      <obj_property name="ElementShortName">mip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/pmpcfg0" type="array">
+      <obj_property name="ElementShortName">pmpcfg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pmpcfg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/pmpaddr0" type="array">
+      <obj_property name="ElementShortName">pmpaddr0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pmpaddr0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtval" type="array">
+      <obj_property name="ElementShortName">mtval[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtval[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/satp" type="array">
+      <obj_property name="ElementShortName">satp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">satp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtime_hi" type="array">
+      <obj_property name="ElementShortName">mtime_hi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtime_hi[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtime_lo" type="array">
+      <obj_property name="ElementShortName">mtime_lo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtime_lo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtimecmp_hi" type="array">
+      <obj_property name="ElementShortName">mtimecmp_hi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtimecmp_hi[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mtimecmp_lo" type="array">
+      <obj_property name="ElementShortName">mtimecmp_lo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mtimecmp_lo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_instr" type="array">
+      <obj_property name="ElementShortName">if_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_pc" type="array">
+      <obj_property name="ElementShortName">if_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_int_ready" type="logic">
+      <obj_property name="ElementShortName">if_int_ready</obj_property>
+      <obj_property name="ObjectShortName">if_int_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_interrupt" type="logic">
+      <obj_property name="ElementShortName">id_interrupt</obj_property>
+      <obj_property name="ObjectShortName">id_interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_pc" type="array">
+      <obj_property name="ElementShortName">id_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_pc_jump" type="array">
+      <obj_property name="ElementShortName">id_pc_jump[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc_jump[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_instr" type="array">
+      <obj_property name="ElementShortName">id_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rs1" type="array">
+      <obj_property name="ElementShortName">id_reg_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rs2" type="array">
+      <obj_property name="ElementShortName">id_reg_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rdata1_raw" type="array">
+      <obj_property name="ElementShortName">id_reg_rdata1_raw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rdata1_raw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rdata2_raw" type="array">
+      <obj_property name="ElementShortName">id_reg_rdata2_raw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rdata2_raw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rdata1" type="array">
+      <obj_property name="ElementShortName">id_reg_rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rdata2" type="array">
+      <obj_property name="ElementShortName">id_reg_rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_reg_rd" type="array">
+      <obj_property name="ElementShortName">id_reg_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_reg_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_imm" type="array">
+      <obj_property name="ElementShortName">id_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_alu_op" type="array">
+      <obj_property name="ElementShortName">id_alu_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">id_alu_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_pc_select" type="logic">
+      <obj_property name="ElementShortName">id_pc_select</obj_property>
+      <obj_property name="ObjectShortName">id_pc_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_imm_select" type="logic">
+      <obj_property name="ElementShortName">id_imm_select</obj_property>
+      <obj_property name="ObjectShortName">id_imm_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_branch" type="logic">
+      <obj_property name="ElementShortName">id_branch</obj_property>
+      <obj_property name="ObjectShortName">id_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_branch_type" type="array">
+      <obj_property name="ElementShortName">id_branch_type[2:0]</obj_property>
+      <obj_property name="ObjectShortName">id_branch_type[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_branch_jump" type="logic">
+      <obj_property name="ElementShortName">id_branch_jump</obj_property>
+      <obj_property name="ObjectShortName">id_branch_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_jump" type="logic">
+      <obj_property name="ElementShortName">id_jump</obj_property>
+      <obj_property name="ObjectShortName">id_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mem_en" type="logic">
+      <obj_property name="ElementShortName">id_mem_en</obj_property>
+      <obj_property name="ObjectShortName">id_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mem_type" type="logic">
+      <obj_property name="ElementShortName">id_mem_type</obj_property>
+      <obj_property name="ObjectShortName">id_mem_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mem_byte" type="array">
+      <obj_property name="ElementShortName">id_mem_byte[1:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mem_byte[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_wb_en" type="logic">
+      <obj_property name="ElementShortName">id_wb_en</obj_property>
+      <obj_property name="ObjectShortName">id_wb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_wb_type" type="array">
+      <obj_property name="ElementShortName">id_wb_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">id_wb_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_csr_reg" type="array">
+      <obj_property name="ElementShortName">id_csr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">id_csr_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_csr_rdata" type="array">
+      <obj_property name="ElementShortName">id_csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_csr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_csr_rdata_raw" type="array">
+      <obj_property name="ElementShortName">id_csr_rdata_raw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_csr_rdata_raw[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_csr_select" type="logic">
+      <obj_property name="ElementShortName">id_csr_select</obj_property>
+      <obj_property name="ObjectShortName">id_csr_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_wb_csr_en" type="logic">
+      <obj_property name="ElementShortName">id_wb_csr_en</obj_property>
+      <obj_property name="ObjectShortName">id_wb_csr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_ecall" type="logic">
+      <obj_property name="ElementShortName">id_ecall</obj_property>
+      <obj_property name="ObjectShortName">id_ecall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_ebreak" type="logic">
+      <obj_property name="ElementShortName">id_ebreak</obj_property>
+      <obj_property name="ObjectShortName">id_ebreak</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mret" type="logic">
+      <obj_property name="ElementShortName">id_mret</obj_property>
+      <obj_property name="ObjectShortName">id_mret</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_int_en" type="logic">
+      <obj_property name="ElementShortName">id_int_en</obj_property>
+      <obj_property name="ObjectShortName">id_int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mepc_we" type="logic">
+      <obj_property name="ElementShortName">id_mepc_we</obj_property>
+      <obj_property name="ObjectShortName">id_mepc_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mepc_wdata" type="array">
+      <obj_property name="ElementShortName">id_mepc_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mepc_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mcause_we" type="logic">
+      <obj_property name="ElementShortName">id_mcause_we</obj_property>
+      <obj_property name="ObjectShortName">id_mcause_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mcause_wdata" type="array">
+      <obj_property name="ElementShortName">id_mcause_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mcause_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mstatus_we" type="logic">
+      <obj_property name="ElementShortName">id_mstatus_we</obj_property>
+      <obj_property name="ObjectShortName">id_mstatus_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mstatus_wdata" type="array">
+      <obj_property name="ElementShortName">id_mstatus_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mstatus_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mip_we" type="logic">
+      <obj_property name="ElementShortName">id_mip_we</obj_property>
+      <obj_property name="ObjectShortName">id_mip_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mip_wdata" type="array">
+      <obj_property name="ElementShortName">id_mip_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mip_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mode_we" type="logic">
+      <obj_property name="ElementShortName">id_mode_we</obj_property>
+      <obj_property name="ObjectShortName">id_mode_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mode_wdata" type="array">
+      <obj_property name="ElementShortName">id_mode_wdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mode_wdata[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mtval_we" type="logic">
+      <obj_property name="ElementShortName">id_mtval_we</obj_property>
+      <obj_property name="ObjectShortName">id_mtval_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_mtval_wdata" type="array">
+      <obj_property name="ElementShortName">id_mtval_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_mtval_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_interrupt" type="logic">
+      <obj_property name="ElementShortName">exe_interrupt</obj_property>
+      <obj_property name="ObjectShortName">exe_interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_pc" type="array">
+      <obj_property name="ElementShortName">exe_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_reg_rdata1" type="array">
+      <obj_property name="ElementShortName">exe_reg_rdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_reg_rdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_reg_rdata2" type="array">
+      <obj_property name="ElementShortName">exe_reg_rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_reg_rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_reg_rd" type="array">
+      <obj_property name="ElementShortName">exe_reg_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_reg_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_imm" type="array">
+      <obj_property name="ElementShortName">exe_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_alu_op" type="array">
+      <obj_property name="ElementShortName">exe_alu_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_alu_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_pc_select" type="logic">
+      <obj_property name="ElementShortName">exe_pc_select</obj_property>
+      <obj_property name="ObjectShortName">exe_pc_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_imm_select" type="logic">
+      <obj_property name="ElementShortName">exe_imm_select</obj_property>
+      <obj_property name="ObjectShortName">exe_imm_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_branch" type="logic">
+      <obj_property name="ElementShortName">exe_branch</obj_property>
+      <obj_property name="ObjectShortName">exe_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_branch_type" type="array">
+      <obj_property name="ElementShortName">exe_branch_type[2:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_branch_type[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_branch_jump" type="logic">
+      <obj_property name="ElementShortName">exe_branch_jump</obj_property>
+      <obj_property name="ObjectShortName">exe_branch_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_jump" type="logic">
+      <obj_property name="ElementShortName">exe_jump</obj_property>
+      <obj_property name="ObjectShortName">exe_jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mem_en" type="logic">
+      <obj_property name="ElementShortName">exe_mem_en</obj_property>
+      <obj_property name="ObjectShortName">exe_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mem_type" type="logic">
+      <obj_property name="ElementShortName">exe_mem_type</obj_property>
+      <obj_property name="ObjectShortName">exe_mem_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mem_byte" type="array">
+      <obj_property name="ElementShortName">exe_mem_byte[1:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mem_byte[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_wb_en" type="logic">
+      <obj_property name="ElementShortName">exe_wb_en</obj_property>
+      <obj_property name="ObjectShortName">exe_wb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_wb_type" type="array">
+      <obj_property name="ElementShortName">exe_wb_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_wb_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_csr_reg" type="array">
+      <obj_property name="ElementShortName">exe_csr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_csr_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_csr_rdata" type="array">
+      <obj_property name="ElementShortName">exe_csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_csr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_csr_select" type="logic">
+      <obj_property name="ElementShortName">exe_csr_select</obj_property>
+      <obj_property name="ObjectShortName">exe_csr_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_wb_csr_en" type="logic">
+      <obj_property name="ElementShortName">exe_wb_csr_en</obj_property>
+      <obj_property name="ObjectShortName">exe_wb_csr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_int_en" type="logic">
+      <obj_property name="ElementShortName">exe_int_en</obj_property>
+      <obj_property name="ObjectShortName">exe_int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mepc_we" type="logic">
+      <obj_property name="ElementShortName">exe_mepc_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mepc_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mepc_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mepc_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mepc_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mcause_we" type="logic">
+      <obj_property name="ElementShortName">exe_mcause_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mcause_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mcause_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mcause_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mcause_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mstatus_we" type="logic">
+      <obj_property name="ElementShortName">exe_mstatus_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mstatus_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mstatus_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mstatus_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mstatus_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mip_we" type="logic">
+      <obj_property name="ElementShortName">exe_mip_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mip_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mip_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mip_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mip_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mode_we" type="logic">
+      <obj_property name="ElementShortName">exe_mode_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mode_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mode_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mode_wdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mode_wdata[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mtval_we" type="logic">
+      <obj_property name="ElementShortName">exe_mtval_we</obj_property>
+      <obj_property name="ObjectShortName">exe_mtval_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mtval_wdata" type="array">
+      <obj_property name="ElementShortName">exe_mtval_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_mtval_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_a" type="array">
+      <obj_property name="ElementShortName">alu_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/alu_b" type="array">
+      <obj_property name="ElementShortName">alu_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_alu_o" type="array">
+      <obj_property name="ElementShortName">exe_alu_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_alu_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_interrupt" type="logic">
+      <obj_property name="ElementShortName">mem_interrupt</obj_property>
+      <obj_property name="ObjectShortName">mem_interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_interrupt_o" type="logic">
+      <obj_property name="ElementShortName">mem_interrupt_o</obj_property>
+      <obj_property name="ObjectShortName">mem_interrupt_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_pc" type="array">
+      <obj_property name="ElementShortName">mem_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_reg_rd" type="array">
+      <obj_property name="ElementShortName">mem_reg_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_reg_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_reg_rdata2" type="array">
+      <obj_property name="ElementShortName">mem_reg_rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_reg_rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_alu_o" type="array">
+      <obj_property name="ElementShortName">mem_alu_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_alu_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_en" type="logic">
+      <obj_property name="ElementShortName">mem_en</obj_property>
+      <obj_property name="ObjectShortName">mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_type" type="logic">
+      <obj_property name="ElementShortName">mem_type</obj_property>
+      <obj_property name="ObjectShortName">mem_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_byte" type="array">
+      <obj_property name="ElementShortName">mem_byte[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_byte[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_dat_i" type="array">
+      <obj_property name="ElementShortName">mem_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_dat_o" type="array">
+      <obj_property name="ElementShortName">mem_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_en" type="logic">
+      <obj_property name="ElementShortName">mem_wb_en</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_type" type="array">
+      <obj_property name="ElementShortName">mem_wb_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_csr_reg" type="array">
+      <obj_property name="ElementShortName">mem_csr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_csr_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_csr_rdata" type="array">
+      <obj_property name="ElementShortName">mem_csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_csr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_csr_en" type="logic">
+      <obj_property name="ElementShortName">mem_wb_csr_en</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_csr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_int_en" type="logic">
+      <obj_property name="ElementShortName">mem_int_en</obj_property>
+      <obj_property name="ObjectShortName">mem_int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mepc_we" type="logic">
+      <obj_property name="ElementShortName">mem_mepc_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mepc_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mepc_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mepc_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mepc_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mcause_we" type="logic">
+      <obj_property name="ElementShortName">mem_mcause_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mcause_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mcause_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mcause_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mcause_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mstatus_we" type="logic">
+      <obj_property name="ElementShortName">mem_mstatus_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mstatus_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mstatus_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mstatus_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mstatus_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mip_we" type="logic">
+      <obj_property name="ElementShortName">mem_mip_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mip_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mip_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mip_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mip_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mode_we" type="logic">
+      <obj_property name="ElementShortName">mem_mode_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mode_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mode_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mode_wdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mode_wdata[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mtval_we" type="logic">
+      <obj_property name="ElementShortName">mem_mtval_we</obj_property>
+      <obj_property name="ObjectShortName">mem_mtval_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mtval_wdata" type="array">
+      <obj_property name="ElementShortName">mem_mtval_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mtval_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_int_en_o" type="logic">
+      <obj_property name="ElementShortName">mem_int_en_o</obj_property>
+      <obj_property name="ObjectShortName">mem_int_en_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mode_we_o" type="logic">
+      <obj_property name="ElementShortName">mem_mode_we_o</obj_property>
+      <obj_property name="ObjectShortName">mem_mode_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_mode_wdata_o" type="array">
+      <obj_property name="ElementShortName">mem_mode_wdata_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_mode_wdata_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_interrupt" type="logic">
+      <obj_property name="ElementShortName">wb_interrupt</obj_property>
+      <obj_property name="ObjectShortName">wb_interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_pc" type="array">
+      <obj_property name="ElementShortName">wb_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_reg_rd" type="array">
+      <obj_property name="ElementShortName">wb_reg_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_reg_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_reg_rdata2" type="array">
+      <obj_property name="ElementShortName">wb_reg_rdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_reg_rdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_alu_o" type="array">
+      <obj_property name="ElementShortName">wb_alu_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_alu_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mem_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_mem_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mem_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_en" type="logic">
+      <obj_property name="ElementShortName">wb_en</obj_property>
+      <obj_property name="ObjectShortName">wb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_type" type="array">
+      <obj_property name="ElementShortName">wb_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_wdata" type="array">
+      <obj_property name="ElementShortName">wb_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_csr_reg" type="array">
+      <obj_property name="ElementShortName">wb_csr_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_csr_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_csr_rdata" type="array">
+      <obj_property name="ElementShortName">wb_csr_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_csr_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_csr_en" type="logic">
+      <obj_property name="ElementShortName">wb_csr_en</obj_property>
+      <obj_property name="ObjectShortName">wb_csr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_int_en" type="logic">
+      <obj_property name="ElementShortName">wb_int_en</obj_property>
+      <obj_property name="ObjectShortName">wb_int_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mepc_we" type="logic">
+      <obj_property name="ElementShortName">wb_mepc_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mepc_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mepc_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mepc_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mepc_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mcause_we" type="logic">
+      <obj_property name="ElementShortName">wb_mcause_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mcause_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mcause_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mcause_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mcause_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mstatus_we" type="logic">
+      <obj_property name="ElementShortName">wb_mstatus_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mstatus_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mstatus_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mstatus_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mstatus_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mip_we" type="logic">
+      <obj_property name="ElementShortName">wb_mip_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mip_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mip_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mip_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mip_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mode_we" type="logic">
+      <obj_property name="ElementShortName">wb_mode_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mode_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mode_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mode_wdata[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mode_wdata[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mtval_we" type="logic">
+      <obj_property name="ElementShortName">wb_mtval_we</obj_property>
+      <obj_property name="ObjectShortName">wb_mtval_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wb_mtval_wdata" type="array">
+      <obj_property name="ElementShortName">wb_mtval_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mtval_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_adr" type="array">
+      <obj_property name="ElementShortName">if_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_dat_o" type="array">
+      <obj_property name="ElementShortName">if_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_adr_o" type="array">
+      <obj_property name="ElementShortName">if_wbm_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_dat_i" type="array">
+      <obj_property name="ElementShortName">if_wbm_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_dat_o" type="array">
+      <obj_property name="ElementShortName">if_wbm_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_we_o" type="logic">
+      <obj_property name="ElementShortName">if_wbm_we_o</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_sel_o" type="array">
+      <obj_property name="ElementShortName">if_wbm_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_stb_o" type="logic">
+      <obj_property name="ElementShortName">if_wbm_stb_o</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_ack_i" type="logic">
+      <obj_property name="ElementShortName">if_wbm_ack_i</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_wbm_cyc_o" type="logic">
+      <obj_property name="ElementShortName">if_wbm_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">if_wbm_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_ready" type="logic">
+      <obj_property name="ElementShortName">if_ready</obj_property>
+      <obj_property name="ObjectShortName">if_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_page_fault" type="logic">
+      <obj_property name="ElementShortName">if_page_fault</obj_property>
+      <obj_property name="ObjectShortName">if_page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_reset" type="logic">
+      <obj_property name="ElementShortName">mem_reset</obj_property>
+      <obj_property name="ObjectShortName">mem_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_we" type="logic">
+      <obj_property name="ElementShortName">mem_we</obj_property>
+      <obj_property name="ObjectShortName">mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_adr" type="array">
+      <obj_property name="ElementShortName">mem_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_sel" type="array">
+      <obj_property name="ElementShortName">mem_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_adr_o" type="array">
+      <obj_property name="ElementShortName">mem_wbm_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_dat_i" type="array">
+      <obj_property name="ElementShortName">mem_wbm_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_dat_o" type="array">
+      <obj_property name="ElementShortName">mem_wbm_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_we_o" type="logic">
+      <obj_property name="ElementShortName">mem_wbm_we_o</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_sel_o" type="array">
+      <obj_property name="ElementShortName">mem_wbm_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_stb_o" type="logic">
+      <obj_property name="ElementShortName">mem_wbm_stb_o</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_ack_i" type="logic">
+      <obj_property name="ElementShortName">mem_wbm_ack_i</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wbm_cyc_o" type="logic">
+      <obj_property name="ElementShortName">mem_wbm_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">mem_wbm_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_ready" type="logic">
+      <obj_property name="ElementShortName">mem_ready</obj_property>
+      <obj_property name="ObjectShortName">mem_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_page_fault" type="logic">
+      <obj_property name="ElementShortName">mem_page_fault</obj_property>
+      <obj_property name="ObjectShortName">mem_page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/branch_delay" type="logic">
+      <obj_property name="ElementShortName">branch_delay</obj_property>
+      <obj_property name="ObjectShortName">branch_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/load_delay" type="logic">
+      <obj_property name="ElementShortName">load_delay</obj_property>
+      <obj_property name="ObjectShortName">load_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_id_stall" type="logic">
+      <obj_property name="ElementShortName">if_id_stall</obj_property>
+      <obj_property name="ObjectShortName">if_id_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_id_flush" type="logic">
+      <obj_property name="ElementShortName">if_id_flush</obj_property>
+      <obj_property name="ObjectShortName">if_id_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_wb_wdata" type="array">
+      <obj_property name="ElementShortName">exe_wb_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exe_wb_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_wdata" type="array">
+      <obj_property name="ElementShortName">mem_wb_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_exe_stall" type="logic">
+      <obj_property name="ElementShortName">id_exe_stall</obj_property>
+      <obj_property name="ObjectShortName">id_exe_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/id_exe_flush" type="logic">
+      <obj_property name="ElementShortName">id_exe_flush</obj_property>
+      <obj_property name="ObjectShortName">id_exe_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mem_stall" type="logic">
+      <obj_property name="ElementShortName">exe_mem_stall</obj_property>
+      <obj_property name="ObjectShortName">exe_mem_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/exe_mem_flush" type="logic">
+      <obj_property name="ElementShortName">exe_mem_flush</obj_property>
+      <obj_property name="ObjectShortName">exe_mem_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_stall" type="logic">
+      <obj_property name="ElementShortName">mem_wb_stall</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_wb_flush" type="logic">
+      <obj_property name="ElementShortName">mem_wb_flush</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wbm_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_stb_o" type="logic">
+      <obj_property name="ElementShortName">wbm_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_ack_i" type="logic">
+      <obj_property name="ElementShortName">wbm_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbm_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_adr_o" type="array">
+      <obj_property name="ElementShortName">wbm_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_dat_o" type="array">
+      <obj_property name="ElementShortName">wbm_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_dat_i" type="array">
+      <obj_property name="ElementShortName">wbm_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_sel_o" type="array">
+      <obj_property name="ElementShortName">wbm_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbm_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbm_we_o" type="logic">
+      <obj_property name="ElementShortName">wbm_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbm_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wbs0_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbs0_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_stb_o" type="logic">
+      <obj_property name="ElementShortName">wbs0_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbs0_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_ack_i" type="logic">
+      <obj_property name="ElementShortName">wbs0_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbs0_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_adr_o" type="array">
+      <obj_property name="ElementShortName">wbs0_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs0_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_dat_o" type="array">
+      <obj_property name="ElementShortName">wbs0_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs0_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_dat_i" type="array">
+      <obj_property name="ElementShortName">wbs0_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs0_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_sel_o" type="array">
+      <obj_property name="ElementShortName">wbs0_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs0_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs0_we_o" type="logic">
+      <obj_property name="ElementShortName">wbs0_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbs0_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wbs1_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbs1_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_stb_o" type="logic">
+      <obj_property name="ElementShortName">wbs1_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbs1_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_ack_i" type="logic">
+      <obj_property name="ElementShortName">wbs1_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbs1_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_adr_o" type="array">
+      <obj_property name="ElementShortName">wbs1_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs1_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_dat_o" type="array">
+      <obj_property name="ElementShortName">wbs1_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs1_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_dat_i" type="array">
+      <obj_property name="ElementShortName">wbs1_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs1_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_sel_o" type="array">
+      <obj_property name="ElementShortName">wbs1_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs1_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs1_we_o" type="logic">
+      <obj_property name="ElementShortName">wbs1_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbs1_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wbs2_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbs2_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_stb_o" type="logic">
+      <obj_property name="ElementShortName">wbs2_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbs2_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_ack_i" type="logic">
+      <obj_property name="ElementShortName">wbs2_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbs2_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_adr_o" type="array">
+      <obj_property name="ElementShortName">wbs2_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs2_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_dat_o" type="array">
+      <obj_property name="ElementShortName">wbs2_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs2_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_dat_i" type="array">
+      <obj_property name="ElementShortName">wbs2_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs2_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_sel_o" type="array">
+      <obj_property name="ElementShortName">wbs2_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs2_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs2_we_o" type="logic">
+      <obj_property name="ElementShortName">wbs2_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbs2_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wbs3_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wbs3_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_stb_o" type="logic">
+      <obj_property name="ElementShortName">wbs3_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wbs3_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_ack_i" type="logic">
+      <obj_property name="ElementShortName">wbs3_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wbs3_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_adr_o" type="array">
+      <obj_property name="ElementShortName">wbs3_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs3_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_dat_o" type="array">
+      <obj_property name="ElementShortName">wbs3_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs3_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_dat_i" type="array">
+      <obj_property name="ElementShortName">wbs3_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs3_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_sel_o" type="array">
+      <obj_property name="ElementShortName">wbs3_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wbs3_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/wbs3_we_o" type="logic">
+      <obj_property name="ElementShortName">wbs3_we_o</obj_property>
+      <obj_property name="ObjectShortName">wbs3_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/regfile/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/we_i" type="logic">
+      <obj_property name="ElementShortName">we_i</obj_property>
+      <obj_property name="ObjectShortName">we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/adr_i" type="array">
+      <obj_property name="ElementShortName">adr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/sel_i" type="array">
+      <obj_property name="ElementShortName">sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/dat_i" type="array">
+      <obj_property name="ElementShortName">dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/dat_o" type="array">
+      <obj_property name="ElementShortName">dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/extend_i" type="logic">
+      <obj_property name="ElementShortName">extend_i</obj_property>
+      <obj_property name="ObjectShortName">extend_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wb_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_stb_o" type="logic">
+      <obj_property name="ElementShortName">wb_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_ack_i" type="logic">
+      <obj_property name="ElementShortName">wb_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_adr_o" type="array">
+      <obj_property name="ElementShortName">wb_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_dat_i" type="array">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_sel_o" type="array">
+      <obj_property name="ElementShortName">wb_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/wb_we_o" type="logic">
+      <obj_property name="ElementShortName">wb_we_o</obj_property>
+      <obj_property name="ObjectShortName">wb_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/ready_o" type="logic">
+      <obj_property name="ElementShortName">ready_o</obj_property>
+      <obj_property name="ObjectShortName">ready_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/satp" type="array">
+      <obj_property name="ElementShortName">satp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">satp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/page_fault" type="logic">
+      <obj_property name="ElementShortName">page_fault</obj_property>
+      <obj_property name="ObjectShortName">page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/reset_page_fault" type="logic">
+      <obj_property name="ElementShortName">reset_page_fault</obj_property>
+      <obj_property name="ObjectShortName">reset_page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_dat_o" type="array">
+      <obj_property name="ElementShortName">tmp_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/page_en" type="logic">
+      <obj_property name="ElementShortName">page_en</obj_property>
+      <obj_property name="ObjectShortName">page_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/va_valid" type="logic">
+      <obj_property name="ElementShortName">va_valid</obj_property>
+      <obj_property name="ObjectShortName">va_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/ppn" type="array">
+      <obj_property name="ElementShortName">ppn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ppn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/nxt_adr" type="array">
+      <obj_property name="ElementShortName">nxt_adr[33:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt_adr[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/nxt_state" type="array">
+      <obj_property name="ElementShortName">nxt_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_we" type="logic">
+      <obj_property name="ElementShortName">tmp_we</obj_property>
+      <obj_property name="ObjectShortName">tmp_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_adr" type="array">
+      <obj_property name="ElementShortName">tmp_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_sel" type="array">
+      <obj_property name="ElementShortName">tmp_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_dat" type="array">
+      <obj_property name="ElementShortName">tmp_dat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_dat[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/tmp_extend" type="logic">
+      <obj_property name="ElementShortName">tmp_extend</obj_property>
+      <obj_property name="ObjectShortName">tmp_extend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mem_master/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/we_i" type="logic">
+      <obj_property name="ElementShortName">we_i</obj_property>
+      <obj_property name="ObjectShortName">we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/adr_i" type="array">
+      <obj_property name="ElementShortName">adr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/sel_i" type="array">
+      <obj_property name="ElementShortName">sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/dat_i" type="array">
+      <obj_property name="ElementShortName">dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/dat_o" type="array">
+      <obj_property name="ElementShortName">dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/extend_i" type="logic">
+      <obj_property name="ElementShortName">extend_i</obj_property>
+      <obj_property name="ObjectShortName">extend_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_cyc_o" type="logic">
+      <obj_property name="ElementShortName">wb_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_stb_o" type="logic">
+      <obj_property name="ElementShortName">wb_stb_o</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_ack_i" type="logic">
+      <obj_property name="ElementShortName">wb_ack_i</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_adr_o" type="array">
+      <obj_property name="ElementShortName">wb_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_dat_i" type="array">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_sel_o" type="array">
+      <obj_property name="ElementShortName">wb_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/wb_we_o" type="logic">
+      <obj_property name="ElementShortName">wb_we_o</obj_property>
+      <obj_property name="ObjectShortName">wb_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/ready_o" type="logic">
+      <obj_property name="ElementShortName">ready_o</obj_property>
+      <obj_property name="ObjectShortName">ready_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/satp" type="array">
+      <obj_property name="ElementShortName">satp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">satp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/page_fault" type="logic">
+      <obj_property name="ElementShortName">page_fault</obj_property>
+      <obj_property name="ObjectShortName">page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/reset_page_fault" type="logic">
+      <obj_property name="ElementShortName">reset_page_fault</obj_property>
+      <obj_property name="ObjectShortName">reset_page_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/reset_tlb" type="logic">
+      <obj_property name="ElementShortName">reset_tlb</obj_property>
+      <obj_property name="ObjectShortName">reset_tlb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_dat_o" type="array">
+      <obj_property name="ElementShortName">tmp_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/page_en" type="logic">
+      <obj_property name="ElementShortName">page_en</obj_property>
+      <obj_property name="ObjectShortName">page_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/va_valid" type="logic">
+      <obj_property name="ElementShortName">va_valid</obj_property>
+      <obj_property name="ObjectShortName">va_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/ppn" type="array">
+      <obj_property name="ElementShortName">ppn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ppn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/nxt_adr" type="array">
+      <obj_property name="ElementShortName">nxt_adr[33:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt_adr[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/nxt_state" type="array">
+      <obj_property name="ElementShortName">nxt_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_we" type="logic">
+      <obj_property name="ElementShortName">tmp_we</obj_property>
+      <obj_property name="ObjectShortName">tmp_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_adr" type="array">
+      <obj_property name="ElementShortName">tmp_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_sel" type="array">
+      <obj_property name="ElementShortName">tmp_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_dat" type="array">
+      <obj_property name="ElementShortName">tmp_dat[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_dat[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tmp_extend" type="logic">
+      <obj_property name="ElementShortName">tmp_extend</obj_property>
+      <obj_property name="ObjectShortName">tmp_extend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb1" type="array">
+      <obj_property name="ElementShortName">tlb1[46:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb1[46:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb2" type="array">
+      <obj_property name="ElementShortName">tlb2[46:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb2[46:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb3" type="array">
+      <obj_property name="ElementShortName">tlb3[46:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb3[46:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb4" type="array">
+      <obj_property name="ElementShortName">tlb4[46:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb4[46:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb1_adr" type="array">
+      <obj_property name="ElementShortName">tlb1_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb1_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb2_adr" type="array">
+      <obj_property name="ElementShortName">tlb2_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb2_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb3_adr" type="array">
+      <obj_property name="ElementShortName">tlb3_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb3_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/tlb4_adr" type="array">
+      <obj_property name="ElementShortName">tlb4_adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tlb4_adr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/if_master/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_cyc_i" type="logic">
+      <obj_property name="ElementShortName">wb_cyc_i</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_stb_i" type="logic">
+      <obj_property name="ElementShortName">wb_stb_i</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_ack_o" type="logic">
+      <obj_property name="ElementShortName">wb_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_adr_i" type="array">
+      <obj_property name="ElementShortName">wb_adr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_dat_i" type="array">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_sel_i" type="array">
+      <obj_property name="ElementShortName">wb_sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_we_i" type="logic">
+      <obj_property name="ElementShortName">wb_we_i</obj_property>
+      <obj_property name="ObjectShortName">wb_we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_addr" type="array">
+      <obj_property name="ElementShortName">sram_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_data" type="array">
+      <obj_property name="ElementShortName">sram_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_ce_n" type="logic">
+      <obj_property name="ElementShortName">sram_ce_n</obj_property>
+      <obj_property name="ObjectShortName">sram_ce_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_oe_n" type="logic">
+      <obj_property name="ElementShortName">sram_oe_n</obj_property>
+      <obj_property name="ObjectShortName">sram_oe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_we_n" type="logic">
+      <obj_property name="ElementShortName">sram_we_n</obj_property>
+      <obj_property name="ObjectShortName">sram_we_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_be_n" type="array">
+      <obj_property name="ElementShortName">sram_be_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_be_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_data_o" type="array">
+      <obj_property name="ElementShortName">sram_data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_data_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/sram_data_t" type="logic">
+      <obj_property name="ElementShortName">sram_data_t</obj_property>
+      <obj_property name="ObjectShortName">sram_data_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/wb_mask" type="array">
+      <obj_property name="ElementShortName">wb_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/nxt_state" type="array">
+      <obj_property name="ElementShortName">nxt_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/SRAM_ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">SRAM_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/SRAM_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">SRAM_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/SRAM_BYTES" type="array">
+      <obj_property name="ElementShortName">SRAM_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sram_controller_base/SRAM_BYTE_WIDTH" type="array">
+      <obj_property name="ElementShortName">SRAM_BYTE_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_BYTE_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/time_interrupt_s" type="logic">
+      <obj_property name="ElementShortName">time_interrupt_s</obj_property>
+      <obj_property name="ObjectShortName">time_interrupt_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/time_interrupt_m" type="logic">
+      <obj_property name="ElementShortName">time_interrupt_m</obj_property>
+      <obj_property name="ObjectShortName">time_interrupt_m</obj_property>
+   </wvobject>
+</wave_config>
